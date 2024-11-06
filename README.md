@@ -2,7 +2,12 @@
 
 A modern fashion e-commerce mobile application built with Flutter, showcasing a seamless shopping experience with elegant UI design and robust functionality.
 
-![Zyra Logo](assets/logo.png)
+## 📸 Screenshots
+
+Check out the app in action! [View Screenshots](https://drive.google.com/drive/folders/1T8Sk9D2_3hLsBa-Z0JdIYLjOkHV7BIO4?usp=sharing)
+
+
+![Zyra Logo](android/app/src/main/ic_launcher-playstore.png)
 
 ## 📱 Features
 
@@ -17,7 +22,6 @@ A modern fashion e-commerce mobile application built with Flutter, showcasing a 
 - Dark Mode Support
 - Session Management
 - Responsive Design
-- Custom Animations
 
 ## 🛠️ Project Structure
 
@@ -75,7 +79,6 @@ flutter run
 2. Login Screen (if not authenticated)
    - Enter mobile number
    - Receive OTP (static: "1234")
-   - Verify OTP
 3. Product Listing Screen
 
 ## 📱 Screen Details
@@ -112,7 +115,7 @@ flutter run
 ## 🔧 State Management
 
 The app uses Provider for state management, organizing the application state into:
-- AuthProvider
+- CompanyProvider
 - CategoryProvider
 - LocationListProvider
 - ProductProvider
